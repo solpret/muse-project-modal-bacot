@@ -1,0 +1,162 @@
+{
+  "job": "baw-hyperevm-support-watch",
+  "agent_wallet": "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E",
+  "expected_hype": "0.0698936191466399",
+  "expected_hype_hex": "0xf84fe0554d4a21",
+  "runs": [
+    {
+      "date": "2026-11-08 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-09 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-10 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-11 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-12 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-13 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-14 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-15 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-16 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    }
+  ],
+  "reported_999_support": false
+}

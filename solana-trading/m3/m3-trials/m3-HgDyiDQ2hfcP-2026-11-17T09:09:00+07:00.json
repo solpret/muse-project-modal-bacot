@@ -1,0 +1,28 @@
+{
+ "token": "HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump",
+ "symbol": null,
+ "pair": "erca1ThNzSRKnQUB3JJe3dHqenSJtBGMiAk8Bop73sy",
+ "status": "closed",
+ "entry_time": "2026-11-17T07:39:57+07:00",
+ "entry_usd": 40.0,
+ "entry_price_usd": 9.482e-05,
+ "exit_time": "2026-11-17T09:09:00+07:00",
+ "exit_reason": "instant_gate_fail",
+ "pnl_usd_net": -39.5325,
+ "pnl_breakdown": {
+  "fees_usd": 0.1014,
+  "gas_usd": 0.0014,
+  "slippage_usd": 0.0047,
+  "entry_drag_usd": 0.1053
+ },
+ "gates": {
+  "audit_rugcheck": true,
+  "score": 96.4,
+  "money_flow": true,
+  "entry_confirmation": true
+ },
+ "discovery": "sighting",
+ "score": 96.4,
+ "trial_id": "m3-HgDyiDQ2hfcP-2026-11-17T09:09:00+07:00",
+ "win": false
+}

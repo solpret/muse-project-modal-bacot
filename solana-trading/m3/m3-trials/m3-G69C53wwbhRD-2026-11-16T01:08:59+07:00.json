@@ -1,0 +1,28 @@
+{
+ "token": "G69C53wwbhRDCpAkkoqBGWjeBfPoUsRMbNg3jmU8pump",
+ "symbol": null,
+ "pair": "9RLEfEQgGXEKnmxvnhgFcvzCYRCPiXRJBSehB1MP1YGk",
+ "status": "closed",
+ "entry_time": "2026-11-15T18:09:39+07:00",
+ "entry_usd": 40.0,
+ "entry_price_usd": 0.000485,
+ "exit_time": "2026-11-16T01:08:59+07:00",
+ "exit_reason": "instant_gate_fail",
+ "pnl_usd_net": -39.9816,
+ "pnl_breakdown": {
+  "fees_usd": 0.1003,
+  "gas_usd": 0.0014,
+  "slippage_usd": 0.0036,
+  "entry_drag_usd": 0.1044
+ },
+ "gates": {
+  "audit_rugcheck": true,
+  "score": 97.5,
+  "money_flow": true,
+  "entry_confirmation": true
+ },
+ "discovery": "sighting",
+ "score": 97.5,
+ "trial_id": "m3-G69C53wwbhRD-2026-11-16T01:08:59+07:00",
+ "win": false
+}
