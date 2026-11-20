@@ -1,14 +1,14 @@
 ---
 id: paper-trading-m3-solana-15m
-title: Paper trading M3 Solana (simulasi, 15 menit)
-enabled: true
+title: Paper trading M3 Solana (simulasi, 30 menit)
+enabled: false
 owner: goal:modal-bacot-live-trading
 mode: task
 schedule:
   kind: interval
   timezone: Asia/Jakarta
-  at: 2026-11-14T21:38:46
-  every: 15m
+  at: 2026-11-19T05:59:57
+  every: 30m
 timeout_secs: 900
 delivery:
   - chat_id: dddf9010-ba6e-4f1b-9b2a-01f53f85e4e2
@@ -17,7 +17,7 @@ metadata:
   originating_chat_context_json: '{"chat_id":"dddf9010-ba6e-4f1b-9b2a-01f53f85e4e2","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"8be79870-67e5-4541-845f-63fb93d3f6d3"}'
   presentation_locale: id-ID
 ---
-PAPER TRADING M3 SOLANA — MODAL BACOT di Solana (paper only, uang virtual, TIDAK ADA eksekusi live/trade nyata). Disetujui user 14 Nov 2026 ~21:22 WIB (tap "Ya, pasang cron M3 15 menit"). Ronde 1 challenge fresh 0/10 (trial = trade paper yang TERTUTUP sesudah challenge mulai 14 Nov 20:34 WIB; metode versi Solana di ~/workspace/trading-challenge/m3-modal-bacot-solana-spec.md). Bankroll virtual $1.000, risiko 1% ($10), exit ladder 2x/4x, kill-switch ekuitas < $700. Mesin: ~/workspace/solana-trading/m3/m3_engine.py (ledger TERPISAH dari M1: ~/workspace/solana-trading/m3-ledger.json; state: ~/workspace/solana-trading/m3/m3-state.json).
+PAPER TRADING M3 SOLANA — MODAL BACOT di Solana (paper only, uang virtual, TIDAK ADA eksekusi live/trade nyata). Disetujui user 14 Nov 2026 ~21:22 WIB (tap "Ya, pasang cron M3 15 menit"); diubah ke 30 menit oleh user 19 Nov 2026 ~05:35 WIB (tap "Ya, ubah M3 ke 30 menit" — respons atas episode timeout ke-2). Ronde 1 challenge fresh 0/10 (trial = trade paper yang TERTUTUP sesudah challenge mulai 14 Nov 20:34 WIB; metode versi Solana di ~/workspace/trading-challenge/m3-modal-bacot-solana-spec.md). Bankroll virtual $1.000, risiko 1% ($10), exit ladder 2x/4x, kill-switch ekuitas < $700. Mesin: ~/workspace/solana-trading/m3/m3_engine.py (ledger TERPISAH dari M1: ~/workspace/solana-trading/m3-ledger.json; state: ~/workspace/solana-trading/m3/m3-state.json).
 
 TIAP RUN:
 1. Cek proses: bila `m3_engine.py` sudah berjalan (pgrep), akhiri DIAM tanpa retry.

@@ -88,7 +88,11 @@ MAX_CREATOR_PCT = 15.0
 MIN_LP_LOCK_PCT = 50.0
 MAX_RUGCHECK_SCORE = 30
 MIN_CANDLES = 12
-UNIVERSE_CAP = 40
+UNIVERSE_CAP = 20
+# UBAH 18 Nov 2026 (putusan user "Kurangi kandidat jadi 20 per siklus"):
+# 40 kandidat butuh ~17-20 menit > interval cron 15 menit (timeout 900 dtk)
+# -> 3x gagal beruntun 19:08/19:23/19:39 WIB. Cap 20/siklus; sighting
+# tetap dievaluasi dulu (MAX_REEVAL_PER_RUN = 20), fresh mengisi sisanya.
 # FIX evaluasi ronde 1 (15 Nov 2026, m3-evaluasi-ronde1-2026-11-15.md):
 # sighting hampir tidak pernah muncul lagi di discovery (ukur 06:03 WIB:
 # 3/35 sighting segar ada di discovery, 1/40 slot universe) sehingga

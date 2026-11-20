@@ -1,7 +1,7 @@
 ---
 id: baw-hyperevm-support-watch
 title: Cek berkala dukungan baw untuk HyperEVM (999)
-enabled: true
+enabled: false
 owner: goal:modal-bacot-live-trading
 mode: task
 schedule:

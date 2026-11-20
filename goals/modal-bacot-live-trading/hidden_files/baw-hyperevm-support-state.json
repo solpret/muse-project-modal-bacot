@@ -156,6 +156,57 @@
       "hype_balance_hex": "0xf84fe0554d4a21",
       "balance_unchanged": true,
       "reported": false
+    },
+    {
+      "date": "2026-11-17 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-18 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
+    },
+    {
+      "date": "2026-11-19 09:37 WIB",
+      "chains": [
+        "8453",
+        "56",
+        "1",
+        "137",
+        "4663",
+        "CT_501",
+        "42161"
+      ],
+      "chain_999_present": false,
+      "hype_balance": "0.0698936191466399",
+      "hype_balance_hex": "0xf84fe0554d4a21",
+      "balance_unchanged": true,
+      "reported": false
     }
   ],
   "reported_999_support": false

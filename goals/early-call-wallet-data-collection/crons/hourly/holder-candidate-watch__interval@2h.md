@@ -1,7 +1,7 @@
 ---
 id: holder-candidate-watch
 title: Pemantau kandidat holder early-call
-enabled: true
+enabled: false
 owner: goal:early-call-wallet-data-collection
 mode: task
 schedule:

@@ -1,8 +1,8 @@
 # MANIFEST — muse-project-modal-bacot
 
-- **Tanggal:** 17 November 2026
+- **Tanggal:** 20 November 2026
 - **Repo publik:** `muse-project-modal-bacot` — https://github.com/solpret/muse-project-modal-bacot
-- **Ukuran:** 360 KB (280.764 byte), 44 file
+- **Ukuran:** 278 KB (284.546 byte), 46 file
 - **Cakupan:** Project Modal Bacot — trading memecoin (BSC, kini off) +
   paper trading M3 Solana (track challenge ronde 2).
 
@@ -28,5 +28,17 @@
   (repo `muse-project-common`) — framework dipakai semua track paper.
 - Ingest Solana (`solana-trading/infra/`) ada di `common/infra/`.
 
+## Pembaruan 2026-11-20 (sejak 17 Nov)
+- Trading DIHENTIKAN user 19 Nov 18:22 WIB: cron M3 15 menit dihapus
+  (`paper-trading-m3-solana-15m__interval@15m.md`), diganti cron 30 menit;
+  GOAL.md + `m3_engine.py` + `baw-hyperevm-support-state.json` diperbarui.
+- `trading-challenge/` dihapus dari tree ini (20 Nov): isinya duplikat —
+  CHALLENGE.md/scoreboard/update_scoreboard.py identik dengan
+  `common/trading-challenge-framework/`, trial M1/M2 identik dengan
+  bacot-degen; varian `update_scoreboard.py.AUDITF-PATCHED` dipindah ke
+  common. Framework tinggal di EXACTLY SATU tempat.
+- Pemecahan repo: TIDAK diperlukan — tree 278 KB; tidak ada file >90 MB.
+
 ## Audit rahasia
-Bersih (17 Nov 2026): 0 temuan bernilai — layak repo publik.
+Bersih (20 Nov 2026, `audit-secret-2026-11-20.txt` di folder induk):
+0 temuan bernilai — layak repo publik.
